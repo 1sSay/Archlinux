@@ -1,0 +1,11 @@
+# Main programs
+
+google-chrome
+telegram-desktop
+discord
+
+# Python
+
+anaconda
+
+# 
