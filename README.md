@@ -1,3 +1,6 @@
+### ArchLinux installing for normies
+```archinstall```
+
 ### Installing yay
 Yay (Yet Another Yogurt) is AUR helper 
 ```

@@ -1,0 +1,96 @@
+{
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[python]": {
+        "editor.rulers": [
+            72,
+            79
+        ]
+    },
+    "breadcrumbs.enabled": false,
+    "C_Cpp.formatting": "vcFormat",
+    "C_Cpp.vcFormat.indent.preserveWithinParentheses": true,
+    "C_Cpp.vcFormat.space.insertAfterSemicolon": true,
+    "C_Cpp.vcFormat.space.withinInitializerListBraces": false,
+    "csharp.referencesCodeLens.enabled": false,
+    "css.format.spaceAroundSelectorSeparator": true,
+    "debug.onTaskErrors": "showErrors",
+    "debug.terminal.clearBeforeReusing": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.fontFamily": "Roboto Mono, monospace",
+    "editor.fontSize": 15,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.guides.bracketPairs": true,
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.overviewRulerBorder": false,
+    "editor.renderLineHighlight": "none",
+    "editor.renderWhitespace": "trailing",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.smoothScrolling": true,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning"
+    ],
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "git.ignoreMissingGitWarning": true,
+    "html.format.wrapLineLength": 0,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "omnisharp.organizeImportsOnFormat": true,
+    "python.formatting.autopep8Args": [
+        "--aggressive"
+    ],
+    "python.formatting.provider": "autopep8",
+    "terminal.integrated.cursorStyle": "line",
+    "vscodeGoogleTranslate.preferredLanguage": "English",
+    "window.commandCenter": true,
+    "window.menuBarVisibility": "compact",
+    "window.title": "${dirty}${activeEditorShort}",
+    "workbench.colorCustomizations": {
+        "[GitHub Dark Default]": {
+            "activityBar.border": "#0000",
+            "debugIcon.breakpointForeground": "#30363d",
+            "editorGroup.border": "#0000",
+            "editorGroupHeader.tabsBackground": "#0d1117",
+            "editorGroupHeader.tabsBorder": "#0000",
+            "editorRuler.foreground": "#30363d",
+            "menu.separatorBackground": "#30363d",
+            "panel.background": "#0d1117",
+            "panel.border": "#0000",
+            "scrollbar.shadow": "#0000",
+            "sideBar.background": "#0d1117",
+            "sideBar.border": "#0000",
+            "sideBarSectionHeader.background": "#0d1117",
+            "statusBar.border": "#0000",
+            "statusBar.foreground": "#c9d1d9",
+            "tab.border": "#0000",
+            "tab.inactiveBackground": "#0d1117",
+            "terminal.foreground": "#c9d1d9",
+            "titleBar.activeForeground": "#c9d1d9",
+            "titleBar.border": "#0000",
+            "titleBar.inactiveBackground": "#0d1117",
+            "widget.shadow": "#0000"
+        }
+    },
+    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.editor.scrollToSwitchTabs": true,
+    "workbench.editorAssociations": {
+        "*.csv": "gc-excelviewer-csv-editor"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.layoutControl.enabled": false,
+    "workbench.list.smoothScrolling": true,
+    "workbench.startupEditor": "none"
+}
