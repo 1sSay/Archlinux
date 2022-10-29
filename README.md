@@ -1,6 +1,3 @@
-### ArchLinux installing for normies
-```archinstall```
-
 ### Installing yay
 Yay (Yet Another Yogurt) is AUR helper 
 ```
@@ -10,14 +7,16 @@ cd yay
 makepkg -si
 ```
 
-### Recommended packages
-* ```google-chrome```
-* ```visual-studio-code-bin```
-* ```telegram-desktop```
-* ```discord```
-* ```authy```
-* ```obs-studio```
-* ```only-office-bin```
-* ```gdb```
-* ```bluez```
-* ```cudnn```
+### VS Code configuring
+First of all, installing VS Code:
+```yay -S visual-studio-code-bin```
+Then open it and replace *settings.json* and *keybindings.json*
+
+If you need to merge menu bars set window.title.BarStyle to "custon" instead of "native"
+
+### How to enable Bluetooth
+```
+yay -S bluez
+sudo systemctl start bluetooth.service
+sudo systemctl enable bluetooth.service
+```

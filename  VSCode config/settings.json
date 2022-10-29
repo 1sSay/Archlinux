@@ -8,7 +8,6 @@
             79
         ]
     },
-    "breadcrumbs.enabled": false,
     "C_Cpp.formatting": "vcFormat",
     "C_Cpp.vcFormat.indent.preserveWithinParentheses": true,
     "C_Cpp.vcFormat.space.insertAfterSemicolon": true,
@@ -30,7 +29,6 @@
     "editor.formatOnType": true,
     "editor.guides.bracketPairs": true,
     "editor.linkedEditing": true,
-    "editor.minimap.enabled": false,
     "editor.overviewRulerBorder": false,
     "editor.renderLineHighlight": "none",
     "editor.renderWhitespace": "trailing",
@@ -56,8 +54,8 @@
     "terminal.integrated.cursorStyle": "line",
     "vscodeGoogleTranslate.preferredLanguage": "English",
     "window.commandCenter": true,
-    "window.menuBarVisibility": "compact",
     "window.title": "${dirty}${activeEditorShort}",
+    "window.titleBarStyle": "native",
     "workbench.colorCustomizations": {
         "[GitHub Dark Default]": {
             "activityBar.border": "#0000",
@@ -87,10 +85,13 @@
     "workbench.colorTheme": "GitHub Dark Default",
     "workbench.editor.scrollToSwitchTabs": true,
     "workbench.editorAssociations": {
-        "*.csv": "gc-excelviewer-csv-editor"
+        "*.csv": "gc-excelviewer-csv-editor",
+        "*.ME": "default"
     },
     "workbench.iconTheme": "material-icon-theme",
     "workbench.layoutControl.enabled": false,
     "workbench.list.smoothScrolling": true,
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "editor.minimap.enabled": false,
+    "git.enableSmartCommit": true
 }
