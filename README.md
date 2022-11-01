@@ -1,5 +1,4 @@
 ### Installing yay
-Yay (Yet Another Yogurt) is AUR helper 
 ```
 sudo pacman -S git
 git clone https://aur.archlinux.org/yay.git
@@ -12,6 +11,7 @@ First of all, installing VS Code:
 ```
 yay -S visual-studio-code-bin
 ```
+
 Then open it and replace *settings.json* and *keybindings.json*
 
 If you need to merge menu bars set **window.title.BarStyle** to *custom* instead of *native*
@@ -24,16 +24,22 @@ sudo systemctl enable bluetooth.service
 ```
 
 ### Anaconda installing
-```yay -S acaconda```
+```
+yay -S acaconda
+```
 
 If *“conda: command not found”* add conda to *PATH*
-```echo "export PATH="/opt/anaconda/bin:$PATH" >> ~/.bashrc```
-
+```
+echo "export PATH="/opt/anaconda/bin:$PATH" >> ~/.bashrc
+```
 
 ### Some useful packages
 Implementation of Office: ```onlyoffice-bin``` 
+<br>
 2-factor authentication: ```authy```
 
 Video player: ```mpv```
+<br>
 Audio player: ```byte```
+<br>
 Photo viewer: ```gwenview```
